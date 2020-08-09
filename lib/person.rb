@@ -3,7 +3,7 @@ class Person
     puts 'Hello World!'
   end
   
-   def sit  # <=== both of these methods are inside the class
+   def walk  # <=== both of these methods are inside the class
     puts "The Person is Walking"
   end
 end
