@@ -1,16 +1,9 @@
 class Person
-  def talk
-    puts "Hello World!"
+  def talk  # <=== both of these methods are inside the class
+    puts 'Hello World!'
+  end
+  
+   def sit  # <=== both of these methods are inside the class
+    puts "The Person is Walking"
   end
 end
-
-alan_kay = Person.new
-alan_kay.talk
-
-  def walk
-    puts "The Person is walking"
-  end
-end
-
-alan_kay = Person.new
-alan_kay.walk
